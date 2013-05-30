@@ -46,4 +46,20 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
-};
+}
+
+$(document).ready(function() {
+
+    alert( "start js" );
+    var device = document.getElementById('deviceready');
+    alert( device.id );
+    app.initialize();
+    alert( "end js" );
+
+
+
+
+
+
+
+});
